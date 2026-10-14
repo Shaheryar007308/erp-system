@@ -11,6 +11,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.erpsystem.ui.navigation.NavGraph
+import com.example.erpsystem.ui.screens.SplashScreen
 import com.example.erpsystem.ui.theme.ErpSystemTheme
 
 class MainActivity : ComponentActivity() {
@@ -20,7 +22,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ErpSystemTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-
+                    NavGraph()
                 }
             }
         }

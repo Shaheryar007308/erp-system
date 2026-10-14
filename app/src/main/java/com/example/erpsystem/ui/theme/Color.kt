@@ -9,3 +9,10 @@ val Pink80 = Color(0xFFEFB8C8)
 val Purple40 = Color(0xFF6650a4)
 val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
+
+val DeepNavy = Color(0.584f, 0.169f, 0.298f) // Primary Theme Tone (#1A2B4C)
+val BurntAmber = Color(0.769f, 0.357f, 0.235f) // Interaction Accent Accent (#C45B3C)
+val SoftCream = Color(0.969f, 0.957f, 0.929f) // Flat Surface Canvas Base (#F7F4ED)
+val SlateMuted = Color(0.400f, 0.467f, 0.514f) // Secondary Text Metric (#667783)
+val SurfaceWhite = Color(0xFFFFFFFF)
+val InkDark = Color(0.125f, 0.188f, 0.235f) // Absolute typography dark text color
